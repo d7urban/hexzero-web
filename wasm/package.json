@@ -1,0 +1,15 @@
+{
+  "name": "hex-wasm",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "hex_wasm_bg.wasm",
+    "hex_wasm.js",
+    "hex_wasm.d.ts"
+  ],
+  "main": "hex_wasm.js",
+  "types": "hex_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

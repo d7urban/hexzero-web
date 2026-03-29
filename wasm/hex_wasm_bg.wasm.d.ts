@@ -1,0 +1,37 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export const __wbg_mctssession_free: (a: number, b: number) => void;
+export const __wbg_wasmhexstate_free: (a: number, b: number) => void;
+export const black: () => number;
+export const mctsSearch: (a: number, b: number, c: any, d: number) => any;
+export const mctssession_bestMove: (a: number) => any;
+export const mctssession_done: (a: number) => number;
+export const mctssession_new: (a: number, b: number, c: any, d: number) => number;
+export const mctssession_selectLeaf: (a: number) => any;
+export const mctssession_supplyEval: (a: number, b: number, c: number, d: number) => void;
+export const wasmhexstate_applyMove: (a: number, b: any) => void;
+export const wasmhexstate_boardData: (a: number) => [number, number];
+export const wasmhexstate_currentPlayer: (a: number) => number;
+export const wasmhexstate_get: (a: number, b: number, c: number) => number;
+export const wasmhexstate_isLegal: (a: number, b: any) => number;
+export const wasmhexstate_isTerminal: (a: number) => number;
+export const wasmhexstate_lastMove: (a: number) => any;
+export const wasmhexstate_legalMoves: (a: number) => any;
+export const wasmhexstate_moveCount: (a: number) => number;
+export const wasmhexstate_moveHistory: (a: number) => any;
+export const wasmhexstate_new: (a: number, b: number) => number;
+export const wasmhexstate_pieRule: (a: number) => number;
+export const wasmhexstate_size: (a: number) => number;
+export const wasmhexstate_undo: (a: number, b: number) => number;
+export const wasmhexstate_winner: (a: number) => number;
+export const wasmhexstate_winningPath: (a: number) => any;
+export const white: () => number;
+export const init: () => void;
+export const __wbindgen_malloc: (a: number, b: number) => number;
+export const __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
+export const __wbindgen_exn_store: (a: number) => void;
+export const __externref_table_alloc: () => number;
+export const __wbindgen_externrefs: WebAssembly.Table;
+export const __wbindgen_free: (a: number, b: number, c: number) => void;
+export const __wbindgen_start: () => void;
